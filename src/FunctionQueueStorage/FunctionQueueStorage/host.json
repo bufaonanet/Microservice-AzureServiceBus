@@ -1,0 +1,20 @@
+{
+  "version": "2.0",
+  "extensions": {
+    "queues": {
+      "maxDequeueCount": 2
+    }
+  },
+  "logging": {
+    "fileLoggingMode": "always",
+    "logLevel": {
+      "FunctionQueueStorage": "Information"
+    },
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  }
+}

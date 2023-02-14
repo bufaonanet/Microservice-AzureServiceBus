@@ -17,7 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionQueueStorage", "src
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureBlobStorage", "AzureBlobStorage", "{E78E60C3-398A-428F-BFCD-DC8519664D22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityStorageSample", "src\IdentityStorageSample\IdentityStorageSample.csproj", "{618415B7-178C-4962-9171-994C484FC832}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityStorageSample", "src\IdentityStorageSample\IdentityStorageSample.csproj", "{618415B7-178C-4962-9171-994C484FC832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJobServiceQueueStorage", "src\WorkerServiceQueueStorage\WebJobServiceQueueStorage\WebJobServiceQueueStorage.csproj", "{A1425699-682B-432F-8340-B667BA25DC77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{618415B7-178C-4962-9171-994C484FC832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{618415B7-178C-4962-9171-994C484FC832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{618415B7-178C-4962-9171-994C484FC832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1425699-682B-432F-8340-B667BA25DC77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1425699-682B-432F-8340-B667BA25DC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1425699-682B-432F-8340-B667BA25DC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1425699-682B-432F-8340-B667BA25DC77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{F947CB8F-4233-475D-AD9E-3D2BBF8B65D0} = {80DE1EF9-5FB4-455A-9FA5-4C57440B56A3}
 		{E28E3BB4-452B-4293-8247-6A32AAE72B9E} = {80DE1EF9-5FB4-455A-9FA5-4C57440B56A3}
 		{618415B7-178C-4962-9171-994C484FC832} = {E78E60C3-398A-428F-BFCD-DC8519664D22}
+		{A1425699-682B-432F-8340-B667BA25DC77} = {80DE1EF9-5FB4-455A-9FA5-4C57440B56A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95575CB4-CC96-4A16-ABF7-F4BD6C8BCB7D}
